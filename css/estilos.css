@@ -6,7 +6,6 @@
 body > main{
   max-width:50%;
   min-width:50%;
-  border:1px solid;
   margin:0 auto;
   overflow: hidden;
 
@@ -45,23 +44,22 @@ body > main > div:nth-child(3){
 }
 
 body > main > div:nth-child(3) > img{
-  padding-right: 15px;
+  padding-right: 30px;
   padding-left:15px;
   vertical-align: middle;
 }
 
 body > main > div:nth-child(3) > img:nth-child(1){
-  margin-bottom: -6.3em;
-
+  margin-bottom: -12%;
 }
 
 body > main > div:nth-child(3) > img:nth-child(2){
-    margin-bottom: -6.3em;
-    margin-top:-6.3em
+    margin-bottom: -12%;
+    margin-top:-12%;
 }
 
 body > main > div:nth-child(3) > img:nth-child(3){
-  margin-top:-6.3em;
+  margin-top:-12%;
 }
 /*----------------THRID DIV--------------------*/
 body > main > div:nth-child(4){
@@ -77,27 +75,62 @@ body > main > div:nth-child(5){
   overflow: hidden;
   margin: 0em;
   text-align: center;
+  margin-right: 200px;
 }
 body > main > div:nth-child(5) > img{
   padding-right: 10px;
   vertical-align: middle;
-  margin-bottom: -11em;
+  margin-bottom: -8.8em;
+  margin-top:-4.8em;
+  margin-right:10px;
+  text-align: center;
 }
-b{
-  margin-left:120px;
+body > main > div:nth-child(5) > label:nth-child(2){
+  position:absolute;
+  bottom:60px;
+  margin-left:10px;
+  font-family: 'Open Sans', sans-serif;
 }
-span{
+body > main > div:nth-child(5) > b:nth-child(4){
+  margin-left:300px;
+  font-family: 'Open Sans', sans-serif;
+}
+body > main > div:nth-child(5) > span:nth-child(3){
   display: inline-block; 
   height: 50px; 
   width: 1px;
-  margin-left:40px;
+  margin-left:80px;
   border-left: 1px solid gray;
 }
+body > main > div:nth-child(5) > label:nth-child(4){
+    position: absolute;
+    margin-left:30px;
+    bottom:60px;
+    font-family: 'Open Sans', sans-serif;
 
+}
+body > main > div:nth-child(5) > b:nth-child(8){
+  margin-left:2100px;
+  font-family: 'Open Sans', sans-serif;
+}
+body > main > div:nth-child(5) > span:nth-child(5){
+  display: inline-block; 
+  height: 50px; 
+  width: 1px;
+  margin-left:130px;
+  border-left: 1px solid gray;
+}
+body > main > div:nth-child(5) > label:nth-child(6){
+  position:absolute;
+  margin-left:40px;
+  bottom:60px;
+  font-family: 'Open Sans', sans-serif;
+}
 /*--------------FIVE DIV-------------*/
 body > main > div:nth-child(6){
   font-family: 'Open Sans', sans-serif;
   margin-left:50px;
   margin-right: 50px;
   border-top:1px solid;
+  margin:30px;
 }
