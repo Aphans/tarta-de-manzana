@@ -44,22 +44,22 @@ body > main > div:nth-child(3){
 }
 
 body > main > div:nth-child(3) > img{
-  padding-right: 30px;
-  padding-left:15px;
   vertical-align: middle;
+  width:40px;
+  height:150px;
 }
 
 body > main > div:nth-child(3) > img:nth-child(1){
-  margin-bottom: -12%;
+  margin-bottom: -105px;
 }
 
 body > main > div:nth-child(3) > img:nth-child(2){
-    margin-bottom: -12%;
-    margin-top:-12%;
+    margin-bottom: -105px;
+    margin-top:-105px;
 }
 
 body > main > div:nth-child(3) > img:nth-child(3){
-  margin-top:-12%;
+  margin-top:-105px;
 }
 /*----------------THRID DIV--------------------*/
 body > main > div:nth-child(4){
