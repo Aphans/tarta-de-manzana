@@ -5,7 +5,7 @@
 /*---------------------------MAIN CONTAINER---------------------------------*/
 body > main{
   max-width:50%;
-  min-width:50%;
+  min-width:558px;
   margin:0 auto;
   overflow: hidden;
 
@@ -36,31 +36,37 @@ body > main > div:nth-child(2){
 
 body > main > div:nth-child(3){
   overflow: hidden;
-  margin: 0em;
   text-align: center;
-  padding-bottom: 2px;
-  margin-left:50px;
-  margin-right: 50px;
 }
 
-body > main > div:nth-child(3) > img{
+body > main > div:nth-child(3) > div {
+  display: inline-block;
+  width:50px;
+  height: 50px;
+  background-image: url(../images/iconos_v.png);
+  background-repeat: no-repeat;
+}
+
+body > main > div:nth-child(3) > div:nth-child(1) {
+  background-position: 0 1px;
+}
+
+body > main > div:nth-child(3) > div:nth-child(2) {
+  background-position: 0 -50px;
+}
+
+body > main > div:nth-child(3) > div:nth-child(3) {
+  background-position: 0 -100px;
+}
+
+body > main > div:nth-child(5) > img {
   vertical-align: middle;
-  width:40px;
-  height:150px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center top;
 }
 
-body > main > div:nth-child(3) > img:nth-child(1){
-  margin-bottom: -105px;
-}
-
-body > main > div:nth-child(3) > img:nth-child(2){
-    margin-bottom: -105px;
-    margin-top:-105px;
-}
-
-body > main > div:nth-child(3) > img:nth-child(3){
-  margin-top:-105px;
-}
 /*----------------THRID DIV--------------------*/
 body > main > div:nth-child(4){
   margin:30px;
@@ -77,19 +83,19 @@ body > main > div:nth-child(5){
   text-align: center;
   margin-right: 200px;
 }
-body > main > div:nth-child(5) > img{
-  padding-right: 10px;
-  vertical-align: middle;
-  margin-bottom: -8.8em;
-  margin-top:-4.8em;
-  margin-right:10px;
-  text-align: center;
+body > main > div:nth-child(5) > div {
+  display: inline-block;
+  width:50px;
+  height: 50px;
+  background-image: url(../images/iconos_v.png);
+  background-repeat: no-repeat;
+  background-position: 0 1px;
 }
 body > main > div:nth-child(5) > label:nth-child(2){
   position:absolute;
-  bottom:60px;
-  margin-left:10px;
+  margin-left:30px;
   font-family: 'Open Sans', sans-serif;
+  font-size:0.9em;
 }
 body > main > div:nth-child(5) > b:nth-child(4){
   margin-left:300px;
@@ -99,14 +105,14 @@ body > main > div:nth-child(5) > span:nth-child(3){
   display: inline-block; 
   height: 50px; 
   width: 1px;
-  margin-left:80px;
+  margin-left:100px;
   border-left: 1px solid gray;
 }
 body > main > div:nth-child(5) > label:nth-child(4){
     position: absolute;
     margin-left:30px;
-    bottom:60px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
 
 }
 body > main > div:nth-child(5) > b:nth-child(8){
@@ -115,7 +121,7 @@ body > main > div:nth-child(5) > b:nth-child(8){
 }
 body > main > div:nth-child(5) > span:nth-child(5){
   display: inline-block; 
-  height: 50px; 
+  height:50px; 
   width: 1px;
   margin-left:130px;
   border-left: 1px solid gray;
@@ -123,8 +129,8 @@ body > main > div:nth-child(5) > span:nth-child(5){
 body > main > div:nth-child(5) > label:nth-child(6){
   position:absolute;
   margin-left:40px;
-  bottom:60px;
   font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
 }
 /*--------------FIVE DIV-------------*/
 body > main > div:nth-child(6){
